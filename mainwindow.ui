@@ -65,6 +65,32 @@
      <string>Print points</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="obb_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>60</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OBB</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="aabb_pushButton">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>90</y>
+      <width>89</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AABB</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
