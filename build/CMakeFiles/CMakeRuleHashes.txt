@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+ca6736217ac3eb384c2067e257f72044 moc_mainwindow.cpp
+78c90f68c3e21fc76b2627d9ba82d81e ui_mainwindow.h

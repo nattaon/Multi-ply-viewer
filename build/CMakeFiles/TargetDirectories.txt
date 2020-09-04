@@ -1,0 +1,3 @@
+/home/nattaon/qt_project/Multi-ply-viewer/build/CMakeFiles/rebuild_cache.dir
+/home/nattaon/qt_project/Multi-ply-viewer/build/CMakeFiles/Multi-ply-viewer.dir
+/home/nattaon/qt_project/Multi-ply-viewer/build/CMakeFiles/edit_cache.dir
