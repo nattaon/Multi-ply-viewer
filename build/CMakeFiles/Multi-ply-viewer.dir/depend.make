@@ -612,6 +612,7 @@ CMakeFiles/Multi-ply-viewer.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/Qt
 CMakeFiles/Multi-ply-viewer.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
 CMakeFiles/Multi-ply-viewer.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 
+CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: ../Colormap.cpp
 CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: ui_mainwindow.h
 CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: ../mainwindow.cpp
 CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: ../mainwindow.h
@@ -1205,6 +1206,7 @@ CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/
 CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
 CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFileDialog
 CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView
+CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
 CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
 CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
 CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar
@@ -1229,6 +1231,7 @@ CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/
 CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
 CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h
+CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
 CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
 CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
 CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenu.h

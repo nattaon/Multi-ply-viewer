@@ -14,6 +14,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
@@ -33,6 +34,12 @@ public:
     QLineEdit *foldername_lineEdit;
     QTreeWidget *files_treeWidget;
     QPushButton *printpoint_pushButton;
+    QPushButton *obb_pushButton;
+    QPushButton *aabb_pushButton;
+    QPushButton *histogram_pushButton;
+    QPushButton *save_histimg_pushButton;
+    QLineEdit *prefiximg_lineEdit;
+    QLabel *label;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -56,6 +63,24 @@ public:
         printpoint_pushButton = new QPushButton(centralWidget);
         printpoint_pushButton->setObjectName(QStringLiteral("printpoint_pushButton"));
         printpoint_pushButton->setGeometry(QRect(210, 30, 89, 25));
+        obb_pushButton = new QPushButton(centralWidget);
+        obb_pushButton->setObjectName(QStringLiteral("obb_pushButton"));
+        obb_pushButton->setGeometry(QRect(210, 60, 89, 25));
+        aabb_pushButton = new QPushButton(centralWidget);
+        aabb_pushButton->setObjectName(QStringLiteral("aabb_pushButton"));
+        aabb_pushButton->setGeometry(QRect(210, 90, 89, 25));
+        histogram_pushButton = new QPushButton(centralWidget);
+        histogram_pushButton->setObjectName(QStringLiteral("histogram_pushButton"));
+        histogram_pushButton->setGeometry(QRect(210, 120, 89, 25));
+        save_histimg_pushButton = new QPushButton(centralWidget);
+        save_histimg_pushButton->setObjectName(QStringLiteral("save_histimg_pushButton"));
+        save_histimg_pushButton->setGeometry(QRect(210, 180, 89, 25));
+        prefiximg_lineEdit = new QLineEdit(centralWidget);
+        prefiximg_lineEdit->setObjectName(QStringLiteral("prefiximg_lineEdit"));
+        prefiximg_lineEdit->setGeometry(QRect(260, 150, 51, 25));
+        label = new QLabel(centralWidget);
+        label->setObjectName(QStringLiteral("label"));
+        label->setGeometry(QRect(210, 155, 41, 17));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
@@ -80,6 +105,12 @@ public:
         QTreeWidgetItem *___qtreewidgetitem = files_treeWidget->headerItem();
         ___qtreewidgetitem->setText(0, QApplication::translate("MainWindow", "Filename", Q_NULLPTR));
         printpoint_pushButton->setText(QApplication::translate("MainWindow", "Print points", Q_NULLPTR));
+        obb_pushButton->setText(QApplication::translate("MainWindow", "OBB", Q_NULLPTR));
+        aabb_pushButton->setText(QApplication::translate("MainWindow", "AABB", Q_NULLPTR));
+        histogram_pushButton->setText(QApplication::translate("MainWindow", "Histogram", Q_NULLPTR));
+        save_histimg_pushButton->setText(QApplication::translate("MainWindow", "Save image", Q_NULLPTR));
+        prefiximg_lineEdit->setText(QApplication::translate("MainWindow", "hist1_", Q_NULLPTR));
+        label->setText(QApplication::translate("MainWindow", "prefix", Q_NULLPTR));
     } // retranslateUi
 
 };

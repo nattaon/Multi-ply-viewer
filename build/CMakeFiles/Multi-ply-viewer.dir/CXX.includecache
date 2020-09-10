@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/nattaon/qt_project/Multi-ply-viewer/build/moc_mainwindow.cpp
+/home/okuboali/nattaon_ws2/Multi-ply-viewer/Colormap.cpp
+iostream
+-
+
+/home/okuboali/nattaon_ws2/Multi-ply-viewer/build/moc_mainwindow.cpp
 ../mainwindow.h
-/home/nattaon/qt_project/Multi-ply-viewer/mainwindow.h
+/home/okuboali/nattaon_ws2/Multi-ply-viewer/mainwindow.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/nattaon/qt_project/Multi-ply-viewer/build/ui_mainwindow.h
+/home/okuboali/nattaon_ws2/Multi-ply-viewer/build/ui_mainwindow.h
 QtCore/QVariant
 -
 QtWidgets/QAction
@@ -24,6 +28,8 @@ QtWidgets/QApplication
 QtWidgets/QButtonGroup
 -
 QtWidgets/QHeaderView
+-
+QtWidgets/QLabel
 -
 QtWidgets/QLineEdit
 -
@@ -42,19 +48,21 @@ QtWidgets/QTreeWidget
 QtWidgets/QWidget
 -
 
-/home/nattaon/qt_project/Multi-ply-viewer/main.cpp
+/home/okuboali/nattaon_ws2/Multi-ply-viewer/main.cpp
 mainwindow.h
-/home/nattaon/qt_project/Multi-ply-viewer/mainwindow.h
+/home/okuboali/nattaon_ws2/Multi-ply-viewer/mainwindow.h
 QApplication
 -
 
-/home/nattaon/qt_project/Multi-ply-viewer/mainwindow.cpp
+/home/okuboali/nattaon_ws2/Multi-ply-viewer/mainwindow.cpp
 mainwindow.h
-/home/nattaon/qt_project/Multi-ply-viewer/mainwindow.h
+/home/okuboali/nattaon_ws2/Multi-ply-viewer/mainwindow.h
 build/ui_mainwindow.h
-/home/nattaon/qt_project/Multi-ply-viewer/build/ui_mainwindow.h
+/home/okuboali/nattaon_ws2/Multi-ply-viewer/build/ui_mainwindow.h
+Colormap.cpp
+/home/okuboali/nattaon_ws2/Multi-ply-viewer/Colormap.cpp
 
-/home/nattaon/qt_project/Multi-ply-viewer/mainwindow.h
+/home/okuboali/nattaon_ws2/Multi-ply-viewer/mainwindow.h
 QMainWindow
 -
 QFileDialog
@@ -98,6 +106,14 @@ vtkRenderWindow.h
 vtkRendererCollection.h
 -
 vtkCamera.h
+-
+opencv2/core.hpp
+-
+opencv2/highgui.hpp
+-
+opencv2/imgcodecs.hpp
+-
+opencv2/imgproc/imgproc.hpp
 -
 
 /usr/include/eigen3/Eigen/Cholesky
@@ -4586,6 +4602,10 @@ qfiledialog.h
 qheaderview.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
+qlabel.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
 qlineedit.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
@@ -4752,6 +4772,12 @@ QtWidgets/qwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractitemview.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qframe.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h

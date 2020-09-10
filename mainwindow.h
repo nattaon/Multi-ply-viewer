@@ -28,6 +28,11 @@
 #include <vtkRendererCollection.h>
 #include <vtkCamera.h>
 
+#include <opencv2/core.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+
 typedef pcl::PointXYZ PointTypeXYZ;
 typedef pcl::PointXYZRGB PointTypeXYZRGB;
 typedef pcl::PointCloud<PointTypeXYZRGB> PointCloudXYZRGB;
@@ -52,6 +57,7 @@ private:
     QTime time;
     int timerId;
     double r,g,b;
+    cv::Mat shownimage;
 
 
     QString currentlyOpenedDir;
@@ -67,6 +73,9 @@ private:
 private slots:
     void Button_openfolder_clicked();
     void Button_printpoint_clicked();
+    void Button_histogram_clicked();
+    void Button_saveimg_clicked();
+
     void Button_obb_clicked();
     void Button_aabb_clicked();
     void SelectPlyFile(QTreeWidgetItem *item, int col);

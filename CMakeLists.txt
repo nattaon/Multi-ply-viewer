@@ -1,6 +1,7 @@
 cmake_minimum_required (VERSION 2.6 FATAL_ERROR)
 
 project      (Multi-ply-viewer)
+find_package(OpenCV REQUIRED)
 find_package (PCL 1.8.1 REQUIRED)
 
 include_directories (${PCL_INCLUDE_DIRS})
@@ -24,5 +25,5 @@ ADD_EXECUTABLE  (Multi-ply-viewer ${project_SOURCES}
 ${project_FORMS_HEADERS}
 ${project_HEADERS_MOC})
 
-TARGET_LINK_LIBRARIES (Multi-ply-viewer ${PCL_LIBRARIES} ${VTK_LIBRARIES})
+TARGET_LINK_LIBRARIES (Multi-ply-viewer ${PCL_LIBRARIES} ${VTK_LIBRARIES} ${OpenCV_LIBS})
 qt5_use_modules (Multi-ply-viewer Widgets)
