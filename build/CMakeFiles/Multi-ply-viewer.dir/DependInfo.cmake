@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/okuboali/nattaon_ws2/Multi-ply-viewer/main.cpp" "/home/okuboali/nattaon_ws2/Multi-ply-viewer/build/CMakeFiles/Multi-ply-viewer.dir/main.cpp.o"
-  "/home/okuboali/nattaon_ws2/Multi-ply-viewer/mainwindow.cpp" "/home/okuboali/nattaon_ws2/Multi-ply-viewer/build/CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o"
-  "/home/okuboali/nattaon_ws2/Multi-ply-viewer/build/moc_mainwindow.cpp" "/home/okuboali/nattaon_ws2/Multi-ply-viewer/build/CMakeFiles/Multi-ply-viewer.dir/moc_mainwindow.cpp.o"
+  "/home/nattaon/qt_project/Multi-ply-viewer/main.cpp" "/home/nattaon/qt_project/Multi-ply-viewer/build/CMakeFiles/Multi-ply-viewer.dir/main.cpp.o"
+  "/home/nattaon/qt_project/Multi-ply-viewer/mainwindow.cpp" "/home/nattaon/qt_project/Multi-ply-viewer/build/CMakeFiles/Multi-ply-viewer.dir/mainwindow.cpp.o"
+  "/home/nattaon/qt_project/Multi-ply-viewer/build/moc_mainwindow.cpp" "/home/nattaon/qt_project/Multi-ply-viewer/build/CMakeFiles/Multi-ply-viewer.dir/moc_mainwindow.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -61,7 +61,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
-  "/usr/include/opencv"
+  "/usr/local/include"
+  "/usr/local/include/opencv"
   )
 
 # Targets to which this target links.

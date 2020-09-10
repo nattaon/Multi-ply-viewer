@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 #include "build/ui_mainwindow.h"
 
-#include "Colormap.cpp"
+#include "JetColormap.cpp"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -18,8 +18,8 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(ui->files_treeWidget, SIGNAL(itemClicked(QTreeWidgetItem *, int)), this, SLOT(SelectPlyFile(QTreeWidgetItem *, int)));
 
 
-    currentlyOpenedDir ="/home/okuboali/nattaon_ws/_0room_dataset/nattaon_edited_sceneNN/rotated";
-    //currentlyOpenedDir = QString("%1home%1nattaon%1ply").arg(QDir::separator());
+    //currentlyOpenedDir ="/home/okuboali/nattaon_ws/_0room_dataset/nattaon_edited_sceneNN/rotated";
+    currentlyOpenedDir = QString("%1home%1nattaon%1ply%1rotated").arg(QDir::separator());
     ui->foldername_lineEdit->setText(currentlyOpenedDir);
     currentSelectingImageIndex=-1;
 
@@ -265,7 +265,7 @@ void MainWindow::Button_histogram_clicked()
     }
     std::cout << "max_density=" << (int)max_density << std::endl;
 
-    Colormap color;
+    JetColormap color;
     std::cout << "color[0]=" << color.colormap[0][0] << std::endl;
 
     int c_index = 0;
